@@ -2,8 +2,8 @@ import os
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify, g
 from flask_cors import CORS
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy.engine import URL
-from models import db, CareItem
 from openai import AzureOpenAI
 from pinecone import Pinecone, ServerlessSpec
 
@@ -27,7 +27,30 @@ def create_app():
 
     app.config['SQLALCHEMY_DATABASE_URI'] = db_url
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-    db.init_app(app)
+
+    db = SQLAlchemy(app)
+
+    class CareItem(db.Model):
+        item_id = db.Column(db.Integer, primary_key=True)
+        name = db.Column(db.String(100), nullable=False)
+        description = db.Column(db.Text)
+        age_group = db.Column(db.String(50))
+        conditions = db.Column(db.String(200))
+
+        def to_dict(self):
+            return {
+                'item_id': self.item_id,
+                'name': self.name,
+                'description': self.description,
+                'age_group': self.age_group,
+                'conditions': self.conditions,
+            }
+
+
+    """db.init_app(app)"""
+
+    with app.app_context():
+        db.create_all()
 
     CORS(app, resources={
         r"/api/recommend": {"origins": "http://localhost:5173"},
@@ -205,7 +228,6 @@ def create_app():
 
 app = create_app()
 
+
 if __name__ == '__main__':
-    with app.app_context():
-        db.create_all()
     app.run(debug=True)
