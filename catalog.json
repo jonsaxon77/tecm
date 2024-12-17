@@ -1,0 +1,352 @@
+[
+  {
+    "item_id": "1",
+    "name": "Bed Rail",
+    "description": "Assists with getting in and out of bed safely.",
+    "conditions": ["mobility issues", "post-surgery", "weakness"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "2",
+    "name": "Pill Organizer",
+    "description": "Helps manage daily medication schedules effectively.",
+    "conditions": ["memory impairment", "multiple medications"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "3",
+    "name": "Shower Chair",
+    "description": "Provides stability and support while showering.",
+    "conditions": ["mobility issues", "balance problems", "fatigue"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "4",
+    "name": "Walker",
+    "description": "Provides stability and support for individuals with balance problems or difficulty walking",
+    "conditions": ["mobility issues", "weakness", "post-injury"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "5",
+    "name": "Reacher Grabber",
+    "description": "Extends reach to pick up objects from the floor or high shelves.",
+    "conditions": ["limited range of motion", "back pain", "arthritis"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "6",
+    "name": "Commode Chair",
+    "description": "Portable toilet for bedside use or when bathroom access is difficult.",
+    "conditions": ["mobility issues", "incontinence", "post-surgery"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "7",
+    "name": "Non-Slip Bath Mat",
+    "description": "Prevents slips and falls in the bathtub or shower.",
+    "conditions": ["balance problems", "risk of falls"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "8",
+    "name": "Long-Handled Shoe Horn",
+    "description": "Helps put on shoes without bending over.",
+    "conditions": ["back pain", "limited flexibility"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "9",
+    "name": "Medication Reminder Alarm",
+    "description": "Provides audible reminders to take medication on time.",
+    "conditions": ["memory impairment", "busy schedules", "mutliple medications", "cognitive decline" ],
+    "age_group": "any"
+  },
+  {
+    "item_id": "10",
+    "name": "Raised Toilet Seat",
+    "description": "Elevates the toilet seat to make sitting down and standing up easier.",
+    "conditions": ["mobility issues", "knee pain", "hip pain"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "11",
+    "name": "Handheld Magnifier with Light",
+    "description": "Portable magnifier with built-in illumination for reading small print in low-light conditions.",
+    "conditions": ["visual impairment", "macular degeneration"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "12",
+    "name": "Talking Watch",
+    "description": "Wristwatch that announces the time and date aloud with a clear voice.",
+    "conditions": ["visual impairment", "blindness"],
+    "age_group": "any"
+  },
+  {
+  "item_id": "13",
+  "name": "Fall Detection Pendant",
+  "description": "Wearable pendant with automatic fall detection that sends alerts to caregivers or emergency services.",
+  "conditions": ["risk of falls", "mobility issues", "living alone"],
+  "age_group": "adult"
+  },
+  {
+    "item_id": "14",
+    "name": "Medication Dispenser with Reminders",
+    "description": "Automated medication dispenser that dispenses the correct medication at the scheduled time and provides reminders, promoting medication adherence.",
+    "conditions": ["memory impairment", "medication management", "cognitive decline"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "15",
+    "name": "Video Conferencing App",
+    "description": "Easy-to-use app for video calls and messaging, promoting social connection and communication with family and friends.",
+    "conditions": ["social isolation", "cognitive decline", "limited mobility"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "16",
+    "name": "Smart Medication Dispenser",
+    "description": "Automated medication dispenser with reminders and remote monitoring capabilities to ensure medication adherence.",
+    "conditions": ["memory impairment", "medication management", "polypharmacy"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "17",
+    "name": "Wearable Fall Detection Device",
+    "description": "Discreet wearable device that detects falls and automatically sends alerts to designated contacts.",
+    "conditions": ["risk of falls", "mobility issues", "living alone"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "18",
+    "name": "GPS Tracker",
+    "description": "Small, lightweight GPS tracker that can be attached to clothing or worn as a wristband to monitor location and prevent wandering.",
+    "conditions": ["dementia", "wandering", "cognitive impairment"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "19",
+    "name": "Companion Robot",
+    "description": "AI-powered companion robot that engages in conversations, plays games, and provides reminders, reducing social isolation and loneliness.",
+    "conditions": ["social isolation", "loneliness", "cognitive decline"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "20",
+    "name": "Light Therapy Lamp",
+    "description": "Simulates natural sunlight to improve mood, sleep, and energy levels, especially helpful for seasonal affective disorder and depression.",
+    "conditions": ["depression", "seasonal affective disorder", "sleep disorders"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "21",
+    "name": "Smartwatch with Fall Detection",
+    "description": "A smartwatch that tracks activity levels, heart rate, and sleep patterns, and also includes fall detection technology to alert emergency contacts in case of a fall.",
+    "conditions": ["risk of falls", "heart conditions", "general wellness"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "22",
+    "name": "Voice-Activated Smart Home Hub",
+    "description": "Allows control of home appliances, lighting, and entertainment systems using voice commands, promoting independence and accessibility for individuals with mobility or dexterity limitations.",
+    "conditions": ["limited mobility", "arthritis", "visual impairment"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "23",
+    "name": "Remote Patient Monitoring System",
+    "description": "A system that collects and transmits health data (e.g., blood pressure, weight, blood glucose) to healthcare providers, allowing remote monitoring of chronic conditions and early detection of potential issues.",
+    "conditions": ["chronic diseases", "heart conditions", "diabetes"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "24",
+    "name": "Virtual Reality Therapy",
+    "description": "Uses VR technology to provide immersive experiences for pain management, cognitive rehabilitation, and mental health support.",
+    "conditions": ["chronic pain", "cognitive decline", "anxiety", "depression"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "25",
+    "name": "Smart Pill Dispenser with App Connectivity",
+    "description": "A pill dispenser that connects to a smartphone app, providing reminders, tracking medication adherence, and allowing caregivers to monitor medication usage remotely.",
+    "conditions": ["memory impairment", "medication management", "polypharmacy"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "26",
+    "name": "Telehealth Platform",
+    "description": "Allows virtual consultations with healthcare providers, reducing the need for in-person visits and improving access to care for individuals with mobility limitations or living in remote areas.",
+    "conditions": ["limited mobility", "chronic diseases", "mental health support"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "27",
+    "name": "AI-Powered Personal Emergency Response System (PERS)",
+    "description": "A PERS device with advanced features like fall detection, voice activation, and location tracking, providing enhanced safety and security for individuals living alone.",
+    "conditions": ["risk of falls", "living alone", "medical emergencies"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "28",
+    "name": "Smart Home Security System with Sensors",
+    "description": "A security system with door/window sensors, motion detectors, and environmental sensors to monitor home safety, prevent wandering, and detect potential hazards like fire or gas leaks.",
+    "conditions": ["dementia", "wandering", "risk of falls", "home safety"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "29",
+    "name": "Assistive Technology for Communication",
+    "description": "Devices like speech-generating devices, eye-tracking communication systems, and communication boards to assist individuals with speech impairments or communication difficulties.",
+    "conditions": ["speech impairment", "aphasia", "autism"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "30",
+    "name": "Wearable Fitness Tracker with GPS",
+    "description": "Tracks activity levels, location, and provides safety features like SOS alerts and geofencing for individuals with dementia or at risk of wandering.",
+    "conditions": ["dementia", "wandering", "fitness tracking"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "31",
+    "name": "Smart Clothing with Health Monitoring",
+    "description": "Clothing embedded with sensors to monitor vital signs, activity levels, and posture, providing valuable health data and promoting well-being.",
+    "conditions": ["chronic diseases", "fitness tracking", "fall prevention"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "32",
+    "name": "Augmented Reality Glasses for Visual Assistance",
+    "description": "Glasses that provide visual cues, object recognition, and navigation assistance for individuals with visual impairments.",
+    "conditions": ["visual impairment", "blindness", "navigation challenges"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "33",
+    "name": "Brain-Computer Interface for Communication and Control",
+    "description": "Advanced technology that allows individuals with severe disabilities to control devices and communicate using brain signals.",
+    "conditions": ["paralysis", "locked-in syndrome", "communication disorders"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "34",
+    "name": "Social Engagement Platform for Seniors",
+    "description": "An online platform or app that connects seniors with each other and with community resources, promoting social interaction, engagement, and reducing social isolation.",
+    "conditions": ["social isolation", "loneliness", "senior care"],
+    "age_group": "senior"
+  },
+  {
+    "item_id": "35",
+    "name": "AI-Powered Medication Management App",
+    "description": "An app that uses AI to personalize medication reminders, track side effects, and provide medication information, improving medication adherence and safety.",
+    "conditions": ["medication management", "polypharmacy", "cognitive decline"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "36",
+    "name": "Smart Cane with Obstacle Detection",
+    "description": "A cane equipped with sensors to detect obstacles and provide audio or haptic feedback, enhancing mobility and safety for individuals with visual impairments.",
+    "conditions": ["visual impairment", "blindness", "mobility challenges"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "37",
+    "name": "Telepresence Robot",
+    "description": "A robot that allows remote communication and interaction, enabling virtual visits from family, friends, or healthcare providers.",
+    "conditions": ["social isolation", "limited mobility", "remote care"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "38",
+    "name": "Smart Wheelchair with Autonomous Navigation",
+    "description": "A wheelchair with advanced features like obstacle avoidance, voice control, and autonomous navigation, enhancing mobility and independence for wheelchair users.",
+    "conditions": ["wheelchair users", "limited mobility", "navigation challenges"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "39",
+    "name": "Exoskeleton for Mobility Assistance",
+    "description": "A wearable robotic device that provides support and assistance with walking, standing, and lifting, improving mobility and independence for individuals with lower limb weakness or paralysis.",
+    "conditions": ["spinal cord injury", "stroke", "mobility impairment"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "40",
+    "name": "Digital Therapeutic for Cognitive Training",
+    "description": "A software program or app that provides engaging cognitive exercises and games to improve memory, attention, and other cognitive functions.",
+    "conditions": ["cognitive decline", "dementia", "brain injury"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "41",
+    "name": "Personalized Music Therapy App",
+    "description": "An app that creates personalized playlists based on individual preferences and mood, promoting relaxation, reducing anxiety, and improving emotional well-being.",
+    "conditions": ["anxiety", "depression", "stress", "mood disorders"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "42",
+    "name": "Smart Home Environment Monitoring System",
+    "description": "Monitors temperature, humidity, and air quality to ensure a comfortable and safe living environment, especially for individuals with respiratory conditions or allergies.",
+    "conditions": ["respiratory conditions", "allergies", "environmental sensitivities"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "43",
+    "name": "AI-Powered Virtual Assistant for Caregivers",
+    "description": "Provides caregivers with information, support, and resources to manage caregiving tasks, connect with other caregivers, and access expert advice.",
+    "conditions": ["caregiver support", "respite care", "caregiver burden"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "44",
+    "name": "Smart Bed with Sleep Monitoring and Adjustment",
+    "description": "A bed with sensors to track sleep patterns and adjust the bed's position to optimize comfort and sleep quality, promoting restful sleep and reducing pressure sores.",
+    "conditions": ["sleep disorders", "pressure sores", "limited mobility"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "45",
+    "name": "Wearable Device for Pain Management",
+    "description": "A device that uses electrical stimulation or other technologies to provide non-invasive pain relief for chronic pain conditions.",
+    "conditions": ["chronic pain", "arthritis", "neuropathy"],
+    "age_group": "adult"
+  },
+  {
+    "item_id": "46",
+    "name": "Virtual Companion for Social Interaction",
+    "description": "An AI-powered virtual companion that provides conversation, companionship, and cognitive stimulation, reducing social isolation and loneliness.",
+    "conditions": ["social isolation", "loneliness", "cognitive decline"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "47",
+    "name": "Smart Home Lighting System for Circadian Rhythm Regulation",
+    "description": "A lighting system that adjusts color temperature and intensity throughout the day to mimic natural light patterns, promoting healthy sleep-wake cycles and improving mood.",
+    "conditions": ["sleep disorders", "circadian rhythm disorders", "mood disorders"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "48",
+    "name": "Assistive Technology for Meal Preparation",
+    "description": "Adaptive utensils, cutting boards, and other kitchen tools to assist individuals with limited dexterity or mobility in preparing meals independently.",
+    "conditions": ["arthritis", "tremors", "limited hand function"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "49",
+    "name": "Telehealth Platform for Mental Health Support",
+    "description": "Provides access to virtual therapy sessions, support groups, and mental health resources, improving access to care and reducing stigma.",
+    "conditions": ["depression", "anxiety", "mental health disorders"],
+    "age_group": "any"
+  },
+  {
+    "item_id": "50",
+    "name": "Smart Toilet with Health Monitoring",
+    "description": "A toilet that analyzes urine for early detection of health issues like urinary tract infections, dehydration, and kidney problems.",
+    "conditions": ["urinary incontinence", "kidney disease", "hydration monitoring"],
+    "age_group": "adult"
+  }
+]
