@@ -9,6 +9,8 @@ from pinecone import Pinecone, ServerlessSpec
 
 load_dotenv()
 
+db = SQLAlchemy()
+
 def create_app():
     app = Flask(__name__)
     app.app_context().push()
@@ -28,7 +30,8 @@ def create_app():
     app.config['SQLALCHEMY_DATABASE_URI'] = db_url
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-    db = SQLAlchemy(app)
+    db.init_app(app)
+
 
     class CareItem(db.Model):
         item_id = db.Column(db.Integer, primary_key=True)
@@ -47,10 +50,6 @@ def create_app():
             }
 
 
-    """db.init_app(app)"""
-
-    with app.app_context():
-        db.create_all()
 
     CORS(app, resources={
         r"/api/recommend": {"origins": "http://localhost:5173"},
@@ -227,7 +226,8 @@ def create_app():
     return app
 
 app = create_app()
-
+with app.app_context():
+    db.create_all()
 
 if __name__ == '__main__':
     app.run(debug=True)
